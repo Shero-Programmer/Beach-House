@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.shero{
+    height: 550px;
+    background: url('/images/beach-house.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+.text{
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 350px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #F9F5F6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.btn{
+    width:200px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid #f2f2f2;
+    background-color: #FDFFAE;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #068FFF;
+    font-weight: bold;
+}
