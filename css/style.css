@@ -5,8 +5,8 @@
 }
 
 .shero{
-    height: 550px;
-    background: url('/images/beach-house.jpg');
+    height: 800px;
+    background: url('../images/beach-house.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,31 +18,34 @@
 .text{
     margin: 0 auto;
     position: absolute;
-    top: 15%;
-    left: 350px;
+    top: 20%;
+    left: 500px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     color: #F9F5F6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .text p{
-    font-size: 1.3rem;
-    margin-top: 10px;
+    font-size: 2rem;
+    margin-top: 20px;
 }
 
 .btn{
-    width:200px;
-    padding: 10px;
-    font-size: 1.3rem;
+    width:300px;
+    padding: 15px;
+    font-size: 1.5rem;
     border-radius: 5px;
     margin-top: 20px;
-    border: 2px solid #f2f2f2;
+    border: 2px solid #3F2305;
     background-color: #FDFFAE;
+      margin-top: 40px;
 }
 
 .btn a{
+    font-size: 1.8rem;
     text-decoration: none;
     color: #068FFF;
     font-weight: bold;
+  
 }
