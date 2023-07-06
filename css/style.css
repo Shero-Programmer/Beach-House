@@ -40,6 +40,15 @@
     margin-top: 30px;
 }
 
+.btn:hover {
+background-color: #00FFCA;
+}
+
+.btn-2:hover {
+background-color: #00FFCA;
+}
+
+
 .btn a{
     font-size: 1.5rem;
     text-decoration: none;
@@ -99,8 +108,9 @@
 
 .about-img img{
     width: 600px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: -150px;
+    margin-top: -50px;
   
 }
 
@@ -135,12 +145,13 @@
     padding-top: 15px;
 }
 .services-1 p{
-    width: 400px;
+    width: 450px;
     font-size: 1.4rem;
     text-align: justify;
     padding: 10px 0;
   
 }
+
 
 .btn-2{
     width:180px;
@@ -148,7 +159,7 @@
     border-radius: 5px;
     border:none;
     background-color: #FBD85D;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .btn-2 a{
@@ -173,6 +184,7 @@ height: 830px;
 
 .about-title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -20px;
 }
 
 p{
@@ -234,7 +246,7 @@ p{
 .footer-container{
     height: 600px;
     background-color: black;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .footer-part1{
@@ -261,6 +273,14 @@ p{
 .footer-text li{
      line-height: 2;
 }
+.footer-text li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text li a:hover{
+    color: #FBD85D;
+}
 .footer-logo{
     width: 400px;
     margin-top: -50px;
@@ -269,7 +289,7 @@ p{
 
 .footer-description{
     margin-top: -110px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-left: 30px;
 }
 
