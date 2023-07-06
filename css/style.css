@@ -18,7 +18,7 @@
 .text{
     margin: 0 auto;
     position: absolute;
-    top: 20%;
+    top: 28%;
     left: 480px;
     text-align: center;
     font-size: 2.5rem;
@@ -35,15 +35,82 @@
     width:300px;
     padding: 15px;
     border-radius: 5px;
-    border: 2px solid #3F2305;
-    background-color: #FDFFAE;
+    border:none;
+    background-color: #FBD85D;
     margin-top: 30px;
 }
 
 .btn a{
     font-size: 1.5rem;
     text-decoration: none;
-    color: #068FFF;
+    color: #4E3636;
     font-weight: bold;
   
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-img{
+    margin-top: -110px;
+    margin-left: 130px;
+    width: 400px;
+}
+.menus{
+    display: flex;
+    margin-left: 410px;
+    margin-top: -180px;
+}
+
+.menus li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.menus li a{
+     text-decoration: none;
+     color:#F9F5F6 ;
+}
+
+.menus li a:hover{
+    color:#FBD85D;
+}
+
+.title-text{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+.about-img img{
+    width: 600px;
+    border-radius: 10px;
+    margin-right: -150px;
+  
+}
+
+.about-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-text{
+    font-size: 1.3rem;
+    width: 50%;
+    margin-right: 100px;
+    
+}
+
+.about-text p {
+    text-align: justify;
 }
